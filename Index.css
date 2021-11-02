@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  font-family: Sans-Serif;
+  background:	black;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald';
+  color: #D2A48A;
+}
+p{
+  color: #EACC9A;
+}
+
+/*Header Section*/
+#intoriortop{
+  background-image: url(Home.jpeg);
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.Wrapper{
+  background-color:#000000a6;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 900px;
+  margin: auto;
+}
+.topbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+  }
+  .topbarmanu #manu li {
+    font-family: 'Oswald';
+   list-style:none ;
+   float: left;
+   margin-right: 20px;
+   font-size: 30px;
+   position: relative;
+  }
+  .topbarmanu #manu li a{
+    text-decoration: none;
+   color:white;
+  }
+  .topbarmanu #manu li::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #D3A58A;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: .5s;
+  }
+  .topbarmanu #manu li:hover::after{
+    width: 100%;
+  }
+  .singleInfo{
+    padding-top: 80px;
+    padding-left: 60px;
+  }
+  .headerInfo{
+    overflow: hidden;
+  }
+  .singleInfo h2{
+    font-size: 35px;
+    color: white;
+  }
+  #stext{
+    font-size: 80px;
+    color: #D2A48A;
+    margin-right: 15px;
+    font-family: 'Lobster', cursive;
+  }
+  #ptext{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    line-height: 50px;
+   
+  }
+  .infobtn{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+   #cvbtn{
+    padding: 40px;
+    border: 2px solid #D2A48A;
+    background:#D2A48A;
+    font-size: 25px;
+    font-weight:bold;
+    border-radius: 25px;
+   }
+   
+   /*My project Gallery*/
+   #projectGallery{
+     margin-top: 90px;
+   }
+   .GWrapper{
+     background:black;
+     color: white;
+     border-radius: 20px;
+     overflow: hidden;
+     border: 1px solid #D2A48A;
+   }
+   .Gtitle{
+     width: 100%;
+     text-align: center;
+     padding-top: 30px;
+   }
+   .Gtitle h1{
+     font-size: 40px;
+     font-weight: 600;
+     
+   }
+   .Gtitle p{
+     font-size: 20px;
+     margin-top: 18px;
+     font-weight: 300;
+     
+   }
+   .imagesBox{
+     width: 800px;
+     margin: auto;
+     text-align: center;
+     padding-top: 80px;
+    
+   }
+   .Gimg img{
+     border-radius: 10px;
+     border: 3px solid #D2A48A;
+   }
+
+   .Gimgtitle{
+     width: 450px;
+     margin: auto;
+     border-bottom: 5px solid #D2A48A;
+     border-top: 2px solid ;
+     margin-bottom: 50px;
+     border-radius: 20px 20px 20px 20px;
+     margin-top: 10px;
+   }
+    .Gimgtitle h1{
+     font-size: 30px;
+     margin-top: 8px;
+     margin-bottom: 10px;
+   }
+   .Gimgtitle p{
+     font-size: 25px;
+     line-height: 35px;
+     padding-bottom:6px ;
+   }
